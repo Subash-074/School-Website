@@ -1,0 +1,176 @@
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    display:flex;
+    height:70px;
+    background-color:rgb(8, 38, 92)
+}
+.logo_polaris{
+    padding:0px;
+
+    height:70px;
+    width:70px;
+    margin-left:0px;
+
+    
+    min-width:20px;
+    
+    
+
+}
+
+
+.schooln_contanier{
+    justify-content:center;
+    display:flex;
+    height:70px;
+    min-width:50%;
+}
+.school_name{
+    color:white;
+    font-size: 20px;
+    
+    
+    padding:10px;
+    font-weight:700;
+}
+
+
+
+
+.navigation_bar{
+    height:70px;
+    display:flex;
+    min-width:45%;
+    justify-content:space-evenly;
+    
+}
+.navigation_bar a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:15px;
+    color:white;
+    padding:23px;
+    border-bottom:4px solid rgb(8, 38, 92);
+    
+
+}
+.navigation_bar a:hover{
+    border-bottom:4px solid rgb(189, 23, 76);
+    
+}
+
+
+
+
+.search_bar{
+    display:flex;
+    height:15px;
+    min-width:100px;
+    width:10%;
+    align-items: center;
+    padding:25px;
+    border:#f5f5f6;
+}
+.search_icon{
+    height:20px;
+    padding:10px;
+    box-sizing: content-box;
+    background-color:white;
+}
+.search_input{
+    color:#696e79;
+    background-color: #f5f5f6;
+    flex-grow: 1;
+    height:40px;
+    border:0;
+    border-radius: 0 4px 4px 0;
+}
+
+
+.action_bar{
+    display:flex;
+   min-width:10%;
+   justify-content:space-evenly;
+
+}
+
+.menue_bar{
+    height:40px;
+    align-items: center;
+    
+    margin-left:90%;
+    
+}
+.menue_button{
+color:white;
+padding-top:20px;
+
+
+
+}
+
+
+/* Main Section*/
+.banner_image{
+    height:400px;
+    width:100%;
+}
+.event_heading{
+     height:40px;
+    background-color: rgb(40, 119, 193);
+}
+.event_name{
+    font-size:20px;
+    padding:10px;
+}
+
+
+.event_gallery{
+    
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.img{
+    height:200px;
+    width:230px;
+
+}
+.container1{
+    width:100%;
+
+}
+.google{
+    margin-left:50%;
+    width:50%;
+}
+.p_message{
+    margin-left:5px;
+    width:100%;
+    background-color:rgb(183, 176, 176);
+    font-size: 20px;
+     font-weight: 600;
+     color:black;
+}
+.photo{
+   
+    height:200px;
+    width:150px;
+}
+.footer_container{
+    padding:30px 0px 40px 0px;
+    background:rgb(81, 107, 131);
+    display:flex;
+    justify-content:space-evenly;
+
+}
+
+
+
+    .footer_column{
+        
+        display:flex;
+        flex-direction:column;}
